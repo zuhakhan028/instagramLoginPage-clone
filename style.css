@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  font-family: 'Barlow Semi Condensed',
+   sans-serif;
+  line-height: 1.7;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin: 50px;
+  background-color:whitesmoke;
+
+
+}
+
+ .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 20px;
+
+ }
+
+ .topbox{
+     max-width: 400px;
+     border: 1px solid rgb(201, 182, 182);
+     background-color: white;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+      align-items: center;
+
+ }
+
+ .fontimage{
+     margin: 40px;
+     height: 50px;
+     width: 180px;
+
+
+ }
+
+ .form{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+
+ }
+ .email{
+   width:100%;
+ }
+
+
+
+
+
+ input[type=email]{
+     margin: 10px;
+     width: 300px;
+    height: 40px;
+    border: 1px solid lightgray;
+    background-color:rgb(252, 250, 250);
+    text-align: start;
+
+
+ }
+
+ input[type=password]{
+     margin: 10px;
+     width: 300px;
+    height: 40px;
+    border: 1px solid lightgray;
+    background-color:rgb(252, 250, 250);
+    text-align: start;
+
+
+ }
+
+
+ .error{
+   color:red;
+   margin: 50px;
+ }
+.submit{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: none;
+    opacity: 0.5;
+    background-color:rgb(87, 183, 221);
+}
+
+ .topbox.form{
+margin: 20px;
+ }
+
+
+hr{
+width: 300px;
+size: 20px;
+
+
+}
+a{
+    text-decoration: none;
+}
+
+.forgotpassword{
+
+    display: flex;
+    font-size: 14px;
+   padding-top: 10px;
+
+
+}
+
+span{
+    color: navy;
+    font-weight: 30px;
+    font-display: bold;
+}
+
+
+
+.fblogo{
+    height: 20px;
+    width: 20px;
+    margin: 1px;
+}
+.bottombox{
+        /* max-width:400px; */
+        border: 1px solid rgb(201, 182, 182);
+        background-color: white;
+        margin-top:10px;
+        padding-left: 87px;
+        padding-right: 87px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        display: flex;
+        flex-direction:column;
+        /* align-items: center; */
+        text-align: center;
+        font-size: 15px;
+
+
+}
+.app{
+
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.stores{
+
+
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+
+
+
+
+}
+
+.playstore{
+    height: 53px;
+    width: 200px;
+    margin: 10px;
+
+}
+
+.appstore{
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+}
+
+.footer li{
+    list-style: none;
+    margin: 5px;
+    color: rgb(153, 147, 147);
+
+}
+.footer{
+    display: flex;
+
+}
